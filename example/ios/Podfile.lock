@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - platform_view_bug_demo (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - platform_view_bug_demo (from `.symlinks/plugins/platform_view_bug_demo/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  platform_view_bug_demo:
+    :path: ".symlinks/plugins/platform_view_bug_demo/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  platform_view_bug_demo: 9e8cdc79bb2fb0bf57505f91f3a9bc653ec7063b
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.9.1
