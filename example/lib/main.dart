@@ -31,8 +31,8 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           children: <Widget>[
             Text(
-              'Touch red background and drag until blue box leaves the screen.'
-              'Panning gesture will be interrupted when blue box touches the edge of the Platform View',
+              'Start pan gesture on red background and drag until blue box leaves the screen. '
+              'Panning gesture will be interrupted when blue box touches the edge of the Platform View.',
             ),
             Expanded(
               child: Stack(
