@@ -39,11 +39,16 @@ class _MyAppState extends State<MyApp> {
                 children: <Widget>[
                   GestureDetector(
                     onPanUpdate: (DragUpdateDetails details) {
+                      print('onPanUpdate');
                       setState(() {
                         _x = _x + details.delta.dx;
                         _y = _y + details.delta.dy;
                       });
                     },
+                    onPanCancel: () => print('onPanCancel'),
+                    onPanDown: (DragDownDetails details) => print('onPanDown'),
+                    onPanStart: (details) => print('onPanStart'),
+                    onPanEnd: (details) => print('onPanEnd'),
                     child: Foo(),
                   ),
                   Positioned(
